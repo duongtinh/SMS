@@ -203,6 +203,7 @@
             })
             .then(response => response.json())
             .then(() => {
+                $('.container-contact100').fadeOut(300);
                 getCampaigns();
                 nameInputText.value = '';
                 urlInputText.value = '';
